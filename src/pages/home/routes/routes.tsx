@@ -1,8 +1,13 @@
-import { ReactElement } from "react";
+import { lazy, ReactElement } from "react";
 import { Route } from "react-router-dom";
 
-import { Home } from "@app/pages/home";
 import { HomeRoutePaths } from "@app/pages/home/routes/paths";
+
+const Home = lazy(() =>
+    import(/* webpackChunkName: "page-home" */ "@app/pages/home").then(({ Home }) => ({
+        default: Home,
+    }))
+);
 
 const homeRoutes: ReactElement = (
     <>
