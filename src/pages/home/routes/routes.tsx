@@ -4,7 +4,7 @@ import { Route } from "react-router-dom";
 import { HomeRoutePaths } from "@app/pages/home/routes/paths";
 
 const Home = lazy(() =>
-    import("@app/pages/home").then(({ Home }) => ({
+    import(/* webpackChunkName: "page-home" */ "@app/pages/home").then(({ Home }) => ({
         default: Home,
     }))
 );

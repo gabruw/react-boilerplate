@@ -54,7 +54,7 @@
                     {
                         "group": "builtin",
                         "position": "after",
-                        "pattern": "react|@react|@testing-library"
+                        "pattern": "vite|@vite|react|@react|@testing-library"
                     },
                     {
                         "group": "external",

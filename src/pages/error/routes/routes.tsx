@@ -4,7 +4,7 @@ import { Route } from "react-router-dom";
 import { ErrorRoutePaths } from "@app/pages/error/routes/paths";
 
 const NotFound = lazy(() =>
-    import("@app/pages/error/not-found").then(({ NotFound }) => ({
+    import(/* webpackChunkName: "page-not-found" */ "@app/pages/error/not-found").then(({ NotFound }) => ({
         default: NotFound,
     }))
 );

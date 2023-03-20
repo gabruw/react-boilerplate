@@ -4,13 +4,13 @@ import { Route } from "react-router-dom";
 import { AuthenticationRoutePaths } from "@app/pages/authentication/routes/paths";
 
 const SignIn = lazy(() =>
-    import("@app/pages/authentication/sign-in").then(({ SignIn }) => ({
+    import(/* webpackChunkName: "page-sign-in" */ "@app/pages/authentication/sign-in").then(({ SignIn }) => ({
         default: SignIn,
     }))
 );
 
 const SignUp = lazy(() =>
-    import("@app/pages/authentication/sign-up").then(({ SignUp }) => ({
+    import(/* webpackChunkName: "page-sign-up" */ "@app/pages/authentication/sign-up").then(({ SignUp }) => ({
         default: SignUp,
     }))
 );
