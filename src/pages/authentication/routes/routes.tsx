@@ -1,9 +1,19 @@
-import { ReactElement } from "react";
+import { lazy, ReactElement } from "react";
 import { Route } from "react-router-dom";
 
 import { AuthenticationRoutePaths } from "@app/pages/authentication/routes/paths";
-import { SignIn } from "@app/pages/authentication/sign-in";
-import { SignUp } from "@app/pages/authentication/sign-up";
+
+const SignIn = lazy(() =>
+    import("@app/pages/authentication/sign-in").then(({ SignIn }) => ({
+        default: SignIn,
+    }))
+);
+
+const SignUp = lazy(() =>
+    import("@app/pages/authentication/sign-up").then(({ SignUp }) => ({
+        default: SignUp,
+    }))
+);
 
 const authenticationRoutes: ReactElement = (
     <>

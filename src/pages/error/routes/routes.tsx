@@ -1,8 +1,13 @@
-import { ReactElement } from "react";
+import { lazy, ReactElement } from "react";
 import { Route } from "react-router-dom";
 
-import { NotFound } from "@app/pages/error/not-found";
 import { ErrorRoutePaths } from "@app/pages/error/routes/paths";
+
+const NotFound = lazy(() =>
+    import("@app/pages/error/not-found").then(({ NotFound }) => ({
+        default: NotFound,
+    }))
+);
 
 const errorRoutes: ReactElement = (
     <>
