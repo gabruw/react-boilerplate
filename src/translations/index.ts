@@ -5,6 +5,7 @@ import i18n from "i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
+import { LocalStorage } from "@app/constants/LocalStorage";
 import { translations } from "@app/translations/languages";
 
 i18n.use(LanguageDetector)
@@ -16,6 +17,9 @@ i18n.use(LanguageDetector)
         debug: !import.meta.env.PROD,
         interpolation: {
             escapeValue: false,
+        },
+        detection: {
+            lookupLocalStorage: LocalStorage.LANGUAGE,
         },
         fallbackLng: {
             "en*": ["enUS"],
