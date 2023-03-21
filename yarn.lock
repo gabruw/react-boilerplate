@@ -2749,10 +2749,15 @@
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.191.tgz#09511e7f7cba275acd8b419ddac8da9a6a79e2fa"
   integrity sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==
 
-"@types/node@*", "@types/node@^18.15.3":
+"@types/node@*":
   version "18.15.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.3.tgz#f0b991c32cfc6a4e7f3399d6cb4b8cf9a0315014"
   integrity sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==
+
+"@types/node@^18.15.5":
+  version "18.15.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.5.tgz#3af577099a99c61479149b716183e70b5239324a"
+  integrity sha512-Ark2WDjjZO7GmvsyFFf81MXuGTA/d6oP38anyxWOL6EREyBKAxKoFHwBhaZxCfLRLpO8JgVXwqOwSwa7jRcjew==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -3833,10 +3838,10 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@^8.7.0:
-  version "8.7.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz#f1cc58a8afebc50980bd53475451df146c13182d"
-  integrity sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==
+eslint-config-prettier@^8.8.0:
+  version "8.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.8.0.tgz#bfda738d412adc917fd7b038857110efe98c9348"
+  integrity sha512-wLbQiFre3tdGgpDv67NQKnJuTlcUVYHas3k+DZCc2U2BadthoEY4B7hLPvAxaqdyOGCzuLfii2fqGph10va7oA==
 
 eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
@@ -4489,10 +4494,10 @@ i18next-browser-languagedetector@^7.0.1:
   dependencies:
     "@babel/runtime" "^7.19.4"
 
-i18next@^22.4.12:
-  version "22.4.12"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-22.4.12.tgz#fde322c186501ea1adcdfac41b2d2552b26eab42"
-  integrity sha512-2lE+vRXxQ3lGLub1CVbwgO0IfkLHmUSDVOAVdPh22CsxttMXi+35n2qgxh2wZIkKl6t/NMzPfgFPRDiFQOmiCg==
+i18next@^22.4.13:
+  version "22.4.13"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-22.4.13.tgz#02e291ab0056eab13b7d356fb454ff991923eaa0"
+  integrity sha512-GX7flMHRRqQA0I1yGLmaZ4Hwt1JfLqagk8QPDPZsqekbKtXsuIngSVWM/s3SLgNkrEXjA+0sMGNuOEkkmyqmWg==
   dependencies:
     "@babel/runtime" "^7.20.6"
 
@@ -5780,10 +5785,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.8.5:
-  version "2.8.5"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.5.tgz#3dd8ae1ebddc4f6aa419c9b64d8c8319a7e0d982"
-  integrity sha512-3gzuxrHbKUePRBB4ZeU08VNkUcqEHaUaouNt0m7LGP4Hti/NuB07C7PPTM/LkWqXoJYJn2McEo5+kxPNrtQkLQ==
+prettier@^2.8.6:
+  version "2.8.6"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.6.tgz#5c174b29befd507f14b83e3c19f83fdc0e974b71"
+  integrity sha512-mtuzdiBbHwPEgl7NxWlqOkithPyp4VN93V7VeHVWBF+ad3I5avc0RVDT4oImXQy9H/AqxA2NSQH8pSxHW6FYbQ==
 
 pretty-format@^27.0.2:
   version "27.5.1"
